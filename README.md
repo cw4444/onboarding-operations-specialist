@@ -1,6 +1,6 @@
 # Onboarding Operations Specialist Demo
 
-Built entirely by [https://chatgpt.com/codex/cloud](Codex) from OpenAI.
+Built entirely by [Codex](https://chatgpt.com/codex/cloud) from OpenAI.
 
 This repo is a demo concept for an AI-assisted onboarding operations system inspired by a real-world HR operations job spec. It shows how repetitive onboarding work can be turned into a workflow-driven, human-in-the-loop automation instead of a pile of manual coordination.
 
