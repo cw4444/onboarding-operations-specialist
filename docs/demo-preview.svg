@@ -1,0 +1,69 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Onboarding Ops Copilot Demo Preview</title>
+  <desc id="desc">A stylized preview of the visual demo showing a live case, risk flag, summary, and follow-up draft.</desc>
+  <defs>
+    <linearGradient id="bg" x1="1400" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111B31"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 180) rotate(124) scale(280 320)">
+      <stop stop-color="#7DD3FC" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7DD3FC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(330 180) rotate(32) scale(360 320)">
+      <stop stop-color="#A78BFA" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="900" fill="url(#glow1)"/>
+  <rect width="1400" height="900" fill="url(#glow2)"/>
+  <g opacity="0.22" filter="url(#blur)">
+    <circle cx="1120" cy="180" r="120" fill="#7DD3FC"/>
+    <circle cx="330" cy="180" r="140" fill="#A78BFA"/>
+  </g>
+
+  <text x="90" y="122" fill="#9EB0CF" font-family="Inter, Arial, sans-serif" font-size="18" letter-spacing="3">CODEX-BUILT DEMO</text>
+  <text x="90" y="204" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="700">Onboarding Ops, but the boring bits are gone.</text>
+  <text x="90" y="255" fill="#9EB0CF" font-family="Inter, Arial, sans-serif" font-size="24">A workflow-first, human-in-the-loop automation demo for onboarding operations.</text>
+
+  <g>
+    <rect x="90" y="320" width="1220" height="500" rx="28" fill="#0E1728" fill-opacity="0.88" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="120" y="350" width="740" height="440" rx="22" fill="#0B1321" fill-opacity="0.95" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="890" y="350" width="390" height="210" rx="22" fill="#0B1321" fill-opacity="0.95" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="890" y="580" width="390" height="210" rx="22" fill="#0B1321" fill-opacity="0.95" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="150" y="402" fill="#9EB0CF" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="2">LIVE CASE</text>
+    <text x="150" y="452" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">ONB-1001</text>
+    <rect x="665" y="420" width="170" height="38" rx="19" fill="rgba(251,191,36,0.15)"/>
+    <text x="694" y="444" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="18">needs review</text>
+
+    <g fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="18">
+      <text x="150" y="520" fill="#9EB0CF">Employee</text>
+      <text x="150" y="550">Jordan Taylor</text>
+      <text x="360" y="520" fill="#9EB0CF">Country</text>
+      <text x="360" y="550">United Kingdom</text>
+      <text x="570" y="520" fill="#9EB0CF">Start date</text>
+      <text x="570" y="550">2026-05-01</text>
+      <text x="150" y="605" fill="#9EB0CF">Contract</text>
+      <text x="150" y="635">Employment</text>
+    </g>
+
+    <rect x="150" y="680" width="650" height="1" fill="rgba(255,255,255,0.08)"/>
+    <rect x="150" y="712" width="36" height="36" rx="18" fill="rgba(251,191,36,0.15)"/>
+    <text x="162" y="736" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="18">!</text>
+    <text x="198" y="736" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="18">Missing signature</text>
+
+    <text x="920" y="402" fill="#9EB0CF" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="2">AI SUMMARY</text>
+    <text x="920" y="448" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="18">Case ONB-1001 for Jordan Taylor</text>
+    <text x="920" y="482" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="18">Route: onboarding_ops</text>
+    <text x="920" y="516" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="18">Flags: Missing signature</text>
+
+    <text x="920" y="632" fill="#9EB0CF" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="2">DRAFT FOLLOW-UP</text>
+    <text x="920" y="678" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="18">Hi Jordan Taylor, we need a few items before we can continue.</text>
+    <text x="920" y="712" fill="#EAF1FF" font-family="Inter, Arial, sans-serif" font-size="18">Missing signature.</text>
+  </g>
+</svg>

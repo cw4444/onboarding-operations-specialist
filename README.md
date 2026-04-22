@@ -1,10 +1,16 @@
 # Onboarding Operations Specialist Demo
 
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Vite](https://img.shields.io/badge/build-vite-646CFF.svg)](https://vitejs.dev/)
+[![Codex-built](https://img.shields.io/badge/built%20with-Codex-10B981.svg)](https://chatgpt.com/codex/cloud)
+
 Built entirely by [Codex](https://chatgpt.com/codex/cloud) from OpenAI.
 
 This repository is a deliberately cheeky demo of how an onboarding operations role can be turned into a workflow-driven, human-in-the-loop automation system.
 
 It was inspired by a public job spec, rewritten into an anonymized blueprint, and framed as a small open-source prototype rather than a production HR platform.
+
+![Demo preview](docs/demo-preview.svg)
 
 ## What it does
 
@@ -20,6 +26,7 @@ It was inspired by a public job spec, rewritten into an anonymized blueprint, an
 
 - `docs/automation-blueprint.md` for the implementation view
 - `docs/prototype-notes.md` for the scaffold overview
+- `docs/demo-preview.svg` for a GitHub-friendly visual preview
 - `spec/job-spec-anonymized.md` for the redacted source-inspired role spec
 - `src/` for a tiny workflow prototype showing case intake, validation, routing, and drafting
 - `index.html` and `src/web/` for a visual demo you can run in the browser
@@ -61,11 +68,53 @@ See [docs/prototype-notes.md](docs/prototype-notes.md) for the layout of the sma
 
 Run `npm install` and then `npm run dev` to open the browser demo.
 
+## CLI Demo
+
+Run `npm run demo:data` to print the sample case summary, routing decision, and drafted follow-up in the terminal.
+
+## Quickstart
+
+```bash
+npm install
+npm run dev
+```
+
+Optional terminal demo:
+
+```bash
+npm run demo:data
+```
+
 ## Why this exists
 
 The job spec describes work that is heavy on coordination, repeatable checks, documentation, and cross-team handoffs. That makes it a strong candidate for automation with a human review layer.
 
 The point of the demo is simple: this kind of role is mostly a set of repeatable systems, and repeatable systems are exactly what automation is for.
+
+## GitHub Notes
+
+This repo is intentionally structured to look good on GitHub with:
+
+- a concise landing page
+- a visual preview asset
+- an obvious `npm` workflow
+- a readable blueprint and prototype split
+- a minimal but real code path from intake to output
+
+## Roadmap
+
+- Add a richer multi-case dashboard
+- Add sample event logs and audit trail views
+- Add simple form input for case creation
+- Add exportable JSON for demo data
+
+## Changelog
+
+- Added the automation blueprint
+- Added the TypeScript workflow scaffold
+- Added the browser demo
+- Added the CLI demo
+- Added GitHub-friendly preview assets and README polish
 
 ## License
 
