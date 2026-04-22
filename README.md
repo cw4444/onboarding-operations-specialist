@@ -39,6 +39,10 @@ The goal is to show the shape of the automation:
 - Rules layer: deterministic compliance checks
 - Storage: case records, logs, templates, and knowledge base content
 
+## Blueprint
+
+See [docs/automation-blueprint.md](docs/automation-blueprint.md) for the implementation-focused breakdown of the workflow, guardrails, and demo scope.
+
 ## Why this exists
 
 The job spec describes work that is heavy on coordination, repeatable checks, documentation, and cross-team handoffs. That makes it a strong candidate for automation with a human review layer.
