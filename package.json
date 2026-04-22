@@ -1,0 +1,16 @@
+{
+  "name": "onboarding-operations-specialist-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "demo:data": "tsx src/demo/run-demo.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "vite": "^6.1.0"
+  }
+}

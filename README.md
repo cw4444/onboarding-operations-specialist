@@ -22,6 +22,7 @@ It was inspired by a public job spec, rewritten into an anonymized blueprint, an
 - `docs/prototype-notes.md` for the scaffold overview
 - `spec/job-spec-anonymized.md` for the redacted source-inspired role spec
 - `src/` for a tiny workflow prototype showing case intake, validation, routing, and drafting
+- `index.html` and `src/web/` for a visual demo you can run in the browser
 
 ## What this is not
 
@@ -55,6 +56,10 @@ See [docs/automation-blueprint.md](docs/automation-blueprint.md) for the impleme
 ## Prototype
 
 See [docs/prototype-notes.md](docs/prototype-notes.md) for the layout of the small `src/` scaffold.
+
+## Visual Demo
+
+Run `npm install` and then `npm run dev` to open the browser demo.
 
 ## Why this exists
 
