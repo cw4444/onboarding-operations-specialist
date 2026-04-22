@@ -2,7 +2,9 @@
 
 Built entirely by [Codex](https://chatgpt.com/codex/cloud) from OpenAI.
 
-This repo is a demo concept for an AI-assisted onboarding operations system inspired by a real-world HR operations job spec. It shows how repetitive onboarding work can be turned into a workflow-driven, human-in-the-loop automation instead of a pile of manual coordination.
+This repository is a deliberately cheeky demo of how an onboarding operations role can be turned into a workflow-driven, human-in-the-loop automation system.
+
+It was inspired by a public job spec, rewritten into an anonymized blueprint, and framed as a small open-source prototype rather than a production HR platform.
 
 ## What it does
 
@@ -13,6 +15,13 @@ This repo is a demo concept for an AI-assisted onboarding operations system insp
 - Routes exceptions to the right internal queue
 - Produces an audit trail for compliance and reporting
 - Surfaces policy and process knowledge for operators
+
+## Included In This Repo
+
+- `docs/automation-blueprint.md` for the implementation view
+- `docs/prototype-notes.md` for the scaffold overview
+- `spec/job-spec-anonymized.md` for the redacted source-inspired role spec
+- `src/` for a tiny workflow prototype showing case intake, validation, routing, and drafting
 
 ## What this is not
 
@@ -43,9 +52,15 @@ The goal is to show the shape of the automation:
 
 See [docs/automation-blueprint.md](docs/automation-blueprint.md) for the implementation-focused breakdown of the workflow, guardrails, and demo scope.
 
+## Prototype
+
+See [docs/prototype-notes.md](docs/prototype-notes.md) for the layout of the small `src/` scaffold.
+
 ## Why this exists
 
 The job spec describes work that is heavy on coordination, repeatable checks, documentation, and cross-team handoffs. That makes it a strong candidate for automation with a human review layer.
+
+The point of the demo is simple: this kind of role is mostly a set of repeatable systems, and repeatable systems are exactly what automation is for.
 
 ## License
 
